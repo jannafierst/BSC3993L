@@ -1,0 +1,9 @@
+Python as a calculator
+
+  6+5
+
+  a = 6+5
+
+  print(a)
+
+  print(‘a’)
