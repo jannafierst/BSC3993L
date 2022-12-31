@@ -25,7 +25,7 @@ fruit.upper()
 prefixes = 'JKLMNOPQ'
 suffix = 'ack'
 
-'''
+
 for letter in prefixes:
     if letter in ('O', 'Q'):
         print(letter + 'u' + suffix)
@@ -36,7 +36,6 @@ for letter in prefixes:
     if letter in ('O','Q'):
         letter+="u"
     print(letter+suffix)
-'''
 
 for letter in prefixes:
     if letter == "O":
@@ -45,3 +44,66 @@ for letter in prefixes:
         print(letter + "u" + suffix)
     else:
         print(letter + suffix)
+
+a = [10, 20, 30, 40]
+
+b = ['crunchy frog', 'ram bladder', 'lark vomit']
+
+b.append('racing horse')
+
+c = [5,'hat baby',24,'a!=2'] 
+
+d = [10, 20, 30, [2,10]]
+
+q = [10,20,30,40]
+
+r = ['ab','bc','cd','de']
+
+qr = list(zip(q,r))
+
+qr = q +r
+
+print(qr)
+
+print(len(b))
+
+for w in range(len(b)):
+  print(b[w])
+
+for element in b:
+  print(element)
+
+b.extend(c)
+
+print(b)
+
+b.sort()
+
+print(sum(r))
+
+b.remove(24)
+
+print(b)
+
+del b[3:6]
+
+print(b)
+
+my_string = 'abracadabra'
+t = list(my_string)
+print(t)
+
+print(t[2])
+
+mine = 'pining for the fjords'
+t = list(mine)
+t = mine.split()
+print(t)
+
+delimiter = ' '
+
+print(delimiter.join(t))
+
+delimiter = ''
+
+print(delimiter.join(t))
